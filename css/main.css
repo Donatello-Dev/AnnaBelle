@@ -45,3 +45,23 @@ li a:hover{
 }
 
 /* SEÇÂO HOME */
+
+section{
+    background-color: #e9f1e9;
+    box-shadow: 0px 0px 10px black;
+}
+
+h1{
+    color: #707070;
+    padding: 17px;
+}
+
+p{
+    padding: 10px 10px;
+    text-indent: 10px;
+}
+
+footer{
+    font-weight: bold;
+    text-align: center;
+}
