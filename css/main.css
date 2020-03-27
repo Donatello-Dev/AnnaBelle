@@ -1,7 +1,7 @@
 *{margin: 0px; padding: 0px;}
 
 body{
-    width: 90%;
+    width: 70%;
     margin: 0px auto;
     background-image: url(../img/fundo.png);
 }
@@ -14,7 +14,6 @@ header{
 
 header img{
     width: 100%;
-    max-width: 100%;
     box-shadow: 0px 0px 10px black;
 }
 
@@ -44,9 +43,10 @@ li a:hover{
     background-color: #248324;
 }
 
-/* SEÇÂO HOME */
+/* SEÇÕES */
 
 section{
+    width: 100%;
     background-color: #e9f1e9;
     box-shadow: 0px 0px 10px black;
 }
@@ -60,6 +60,28 @@ p{
     padding: 10px 10px;
     text-indent: 10px;
 }
+
+/* SEÇÂO CAMPANHAS PUBLICITARIAS */
+
+section img{
+    max-width: 100%;
+    box-sizing: border-box;
+    border: 10px solid #d1d0d1;
+    margin: 10px;
+}
+
+section figure{
+    display: flex;
+    justify-content: center;
+}
+
+/* SEÇÂO DE CONTATO */
+
+strong{
+    padding: 20px;
+}
+
+/* RODAPÉ */
 
 footer{
     font-weight: bold;
