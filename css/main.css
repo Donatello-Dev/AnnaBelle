@@ -1,7 +1,7 @@
-*{margin: 0px; padding: 0px;}
+main, *{margin: 0px; padding: 0px; box-sizing: border-box;}
 
 body{
-    width: 70%;
+    width: 885px;
     margin: 0px auto;
     background-image: url(../img/fundo.png);
 }
@@ -86,4 +86,18 @@ strong{
 footer{
     font-weight: bold;
     text-align: center;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 883px){
+    body{
+        width: 90%;
+    }
+}
+
+@media (max-width: 440px){
+    li a{
+        padding: 5px 10px;
+    }
 }
